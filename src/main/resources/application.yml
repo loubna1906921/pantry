@@ -1,0 +1,11 @@
+#JPA
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/pantry
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.dll-auto: update
+    show-sql: true
+
